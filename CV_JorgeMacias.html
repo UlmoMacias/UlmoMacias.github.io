@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Ulmo Macias</title>
+
+		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+		<link rel="stylesheet" href="reveal.js/dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="media/bg/23.jpg">
+					<h3>Jorge Macías Gómez</h3>
+					<hr>
+					Computer Science Student (2016)
+					<br>
+					Data Science Student (2020)
+					<p id="date"></p>
+				</section>
+
+				<!--  ##########################################################################################  -->
+				<!--  ##########################################################################################  -->
+				<section data-background-image="media/bg/4.jpg"> 
+					<section>	
+					<h4> Educations </h4>
+						<table>
+							<tbody>
+								<tr>
+									<td style="color:white;font-size:24px;"><b> Universidad Nacional Autónoma de México</b></td>
+									<td style="color:white;font-size:19px;"><b> Bachelor - Computer Science</b>
+									</td>
+								</tr>
+
+								<tr>
+									<td style="color:white;font-size:22px;"> 2016-2021 </td>
+									<td style="color:white;font-size:18px;"> The education was mainly Java-based programming, but I also learned about SQL, PHP, Ruby, Python, HTLM, MVC, UML, and more. <br>
+									I got experience leading small teams on software development projects using agile methods such as Scrum.
+									</td>
+								</tr>
+							</tbody>
+						</table>  						
+					</section>
+
+					<section>
+						<h4> Educations </h4>
+						<table>
+							<tbody>
+								<tr>
+									<td style="color:white;font-size:24px;"><b> Universidad Nacional Autónoma de México</b></td>
+									<td style="color:white;font-size:19px;"><b> Bachelor - Data Science</b>
+									</td>
+								</tr>
+
+								<tr>
+									<td style="color:white;font-size:22px;"> 2020-2022 </td>
+									<td style="color:white;font-size:18px;"> Currently starting <br></td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+				</section>
+				<!--  ##########################################################################################  -->
+				<!--  ##########################################################################################  -->
+				<section>
+					
+				</section>
+
+
+
+			</div>
+		</div>
+
+
+
+		<script src="reveal.js/dist/reveal.js"></script>
+		<script src="reveal.js/plugin/notes/notes.js"></script>
+		<script src="reveal.js/plugin/markdown/markdown.js"></script>
+		<script src="reveal.js/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
+<script>
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+</script>
