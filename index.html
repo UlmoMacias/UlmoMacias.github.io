@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="reveal.js/dist/reset.css">
+		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="reveal.js/dist/reveal.css">
 		<link rel="stylesheet" href="reveal.js/dist/theme/serif.css" id="theme">
 
@@ -31,10 +32,9 @@
 					<p style="font-size:18px;color: white; margin: 25px 70px;" id="date"></p>
 					<h3 style="color: white">Jorge Macías Gómez</h3>
 					<hr>
-					<p style="color: white;"> Interactive resume </p>
+					<p style="color: white;"> Interactive bio </p>
 					<p style="font-size:15px;color: white;"> <mark>Use arrows to navigate, or swipe. </mark></p>
 					<p style="font-size:15px;color: white;"> <mark>Press "Esc" or "O" key to enter overview mode.<mark> </p>
-
 				</section>
 
 				<!--  ##########################################################################################  -->
@@ -42,12 +42,18 @@
 				<!--  ##########################################################################################  -->
 
 				<section data-background-image="https://media2.giphy.com/media/QyhbMNsMlmR5I1kgGn/giphy.gif" data-background-size="contain" id="Profile">
-					<p style="font-size:18px;color: white; margin: 25px 70px;" id="date"></p>
-					<h3 style="color: white">Profile</h3>
-					<hr>
-					<p style="color: white">Computer Science Student (2016)</p>
-					<p style="color: white">Data Science Student (2020)</p>
+					<h3 class="fragment fade-out" style="background-color: #F4F4EC">About Me</h3>
+					<p class="fragment fade-in-then-out" style="background-color: #F4F4EC">I am Mexican. I am a junior programmer with good knowledge of front-end and back-end techniques. I love spending time learning new stuff, coding, reading, and I'm a volunteer math lecturer. </p>
+					<p class="fragment " style="background-color: #F4F4EC">I'm passionate of science communication and teaching, also I'm interested in finance.
+						<br>I want to help revolutionize the educational system.
+					</p>
+				</section>
 
+				<section data-background-image="https://media2.giphy.com/media/QyhbMNsMlmR5I1kgGn/giphy.gif" data-background-size="contain" id="Profile2">
+					<p style="background-color: #F4F4EC">As the saying goes: "Find three hobbies you love: One to make you money, one to keep you in shape, and one to be creative."
+					</p>
+					<p class="fragment " style="background-color: #F4F4EC">I feel lucky that I find the three of them: coding and investing, martial arts, and painting <a href="https://www.pinterest.com.mx/search/pins/?q=alebrijes&rs=typed&term_meta[]=alebrijes%7Ctyped">'Alebrijes'(In case you don't know them)</a>.
+					</p>
 				</section>
 
 
@@ -72,7 +78,8 @@
 									</td>
 								</tr>
 							</tbody>
-						</table>  						
+						</table>
+						<i class="fa fa-long-arrow-down" aria-hidden="true" style="color: white"></i>
 					</section>
 
 					<!--  ##########################################################################################  -->
@@ -101,11 +108,21 @@
 				<!--  ##########################################################################################  -->
 				
 				<section data-background-image="media/bg/ucsd2.jpg" id="Research">
-					<p style="background-color:#A2C4BB; color:#27375D;font-size:35">  <b> Research Experience </b> </p>
+					<p style="background-color:#D0CEC7; color:#27375D;font-size:35">  <b> Research Experience </b> </p>
 					<br>
-					<p style="background-color:#A2C4BB; color:#27375D; font-size:23px;">
+					<p style="background-color:#D0CEC7; color:#27375D; font-size:23px;">
 						Made a summer research internship at <b>University of California, San Diego UCSD </b>, supervised by <a href="http://proteomics.ucsd.edu/vbafna/"> Dr. Vineet Bafna </a> and <a href="https://sites.google.com/a/eng.ucsd.edu/namphuon/"> Dr. Nam-phuong Nguyen </a>, where I worked with DNA CSV data files, trying to look for patterns and cycles on oncogenes, searching for overlapping DNA intervals to find genes on certain structures on Python. 
 					</p>
+				</section>
+
+				<!--  ##########################################################################################  -->
+				<!-- Awards Secction -->
+				<!--  ##########################################################################################  -->
+
+				<section data-background-image="media/bg/hackathon.jpeg" id="Awards">
+					<h3 style="background-color: #F4F4EC">Awards.</h3>
+					<p style="font-size: 25px;background-color: #F4F4EC">Winner of IBM challenge at UNAMxHacks 2019, Major League Hacking national coding competition.</p>
+					
 				</section>
 
 				<!--  ##########################################################################################  -->
@@ -176,6 +193,7 @@
 				<!--  ##########################################################################################  -->
 				<!-- Projects Section -->
 				<!--  ##########################################################################################  -->
+				
 				<section>
 					<section id="Projects">
 						<h4> Major Projects. </h4>
@@ -429,8 +447,154 @@
 
 				</section>
 
+				<!--  ##########################################################################################  -->
+				<!-- Skills Section -->
+				<!--  ##########################################################################################  -->
+
+				<section>
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<h5>Programming Languages</h5>
+									<table>
+										<tbody>
+											<tr>
+												<td>
+													<p style="font-size: 18px">Python</p>
+													<div class="container">
+  														<div class="skills python">90%</div>
+													</div>
+													
+													<p style="font-size: 18px">Latex</p>
+													<div class="container">
+  														<div class="skills tex">90%</div>
+													</div>
+													
+													<p style="font-size: 18px">Java</p>
+													<div class="container">
+  														<div class="skills java">80%</div>
+													</div>
+
+												</td>
+												<td>
+													<p style="font-size: 18px">Html</p>
+													<div class="container">
+  														<div class="skills html">80%</div>
+													</div>
+													<p style="font-size: 18px">CSS</p>
+													<div class="container">
+  														<div class="skills css">70%</div>
+													</div>
+													<p style="font-size: 18px">Ruby</p>
+													<div class="container">
+  														<div class="skills ruby">70%</div>
+													</div>
+													
+													
+												</td>
+
+												<td>
+													<p style="font-size: 18px">PHP</p>
+													<div class="container">
+  														<div class="skills php">60%</div>
+													</div>
+													
+													<p style="font-size: 18px">C</p>
+													<div class="container">
+  														<div class="skills c">60%</div>
+													</div>
+													
+												</td>
+												<td>
+													<p style="font-size: 18px">JS</p>
+													<div class="container">
+  														<div class="skills js">60%</div>
+													</div>
+													
+													<p style="font-size: 18px">C++</p>
+													<div class="container">
+  														<div class="skills cplusplus">60%</div>
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									
+								</td>
+								<td>
+									<h5>Frameworks</h5>
+									<table>
+										<tbody>
+											<tr>
+												<td style="font-size: 18px">Android, Arduino, Git, GitHub, VirtualBox, </td>
+											</tr>
+											<tr>
+												<td style="font-size: 18px">Unix/Bash, Laravel, Ajax, Rails, Unity, Processing, SQLite, Postgresql, MySQL</td>
+											</tr>
+											
+												
+										</tbody>
+									</table>
+									<h5>Languages</h5>
+									<p style="font-size: 18px">Spanish(Native)<br> Advanced English (CAE).<br>Basic German(A1)</p>
+									<h5>General Business Skills</h5>
+									<p style="font-size: 18px">Good presentation skills, work well in teams, leader, good social skills, smooth-talking sales, entrepreneur, creative.</p>
+
+								</td>
+							</tr>
+
+						</tbody>
+					</table>
+				</section>
+
+				<!--  ##########################################################################################  -->
+				<!-- Contact Section -->
+				<!--  ##########################################################################################  -->
 
 				<section id="End">
+					<h3>Contact Info</h3>
+					<table>
+						<tr>
+							<td>
+								<a href="https://github.com/UlmoMacias/">
+									<i class="fa fa-github" aria-hidden="true"></i>
+								</a>
+							</td>
+							<td>
+								<a href="https://es.quora.com/profile/Ulmo-Macias">
+									<i class="fa fa-quora" aria-hidden="true"></i>
+								</a>
+								
+							</td>
+							<td>
+								<a href="https://t.me/ulmomacias">
+									<i class="fa fa-telegram" aria-hidden="true"></i>
+								</a>
+								
+							</td>
+							<td>
+								<a href="https://linkedin.com/in/ulmo-macias/">
+									<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+								</a>
+								
+							</td>
+							<td>
+								<a href="https://www.instagram.com/ulmomacias/">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+								</a>
+								
+							</td>
+							<td>
+								<a href="mailto:jorgemacias@ciencias.unam.mx">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</a>
+								
+							</td>
+						</tr>
+					</table>
+
 					<a href="#/Introduction">Back to the first slide</a>
 				</section>
 
@@ -454,6 +618,8 @@
 		plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 	});
 </script>
+
+
 <script>
 	//Reveal.initialize({ slideNumber: 'h.v' });
 </script>
