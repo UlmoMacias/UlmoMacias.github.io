@@ -1,32 +1,18 @@
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-
-/* Container for skill bars */
-.container {
-    width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+.column {
+  float: left;
+  width: 50%;
 }
 
-.skills {
-	font-size: 18px;
-    text-align: right; /* Right-align text */
-    line-height: 23px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.python {width: 90%; background-color: #0B2027} /* Green */
-.tex {width: 90%; background-color: #0B2027;} /* Dark Grey */
-.java {width: 80%; background-color: #86836D;} /* Green */
-.html {width: 80%; background-color: #86836D;} /* Blue */
-.css {width: 70%; background-color: #832232;} /* Red */
-.ruby {width: 70%; background-color: #832232;} /* Dark Grey */
-.php {width: 60%; background-color: #449DD1;} /* Dark Grey */
-.c {width: 60%; background-color: #449DD1;} /* Dark Grey */
-.js {width: 60%; background-color: #449DD1;} /* Dark Grey */
-.cplusplus {width: 60%; background-color: #449DD1;} /* Dark Grey */
-
-
-
-
-
-/*FF8A5B  EA526F*/
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
