@@ -1,9 +1,13 @@
 # Jorge Macias personal web pages
+=======
+You can visit my interactive bio [here](https://ulmomacias.github.io)
+
 
 ## Interactive Bio
 Done using [revealjs](https://revealjs.com)
 
-##Reveal.js
+Done using [revealjs](https://revealjs.com)
+## Reveal.js
 
 reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
 ### Documentation
