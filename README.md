@@ -15,7 +15,7 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
 
 MIT licensed
 
-Copyright (C) 2011-2020 Hakim El Hattab, https://hakim.se
+Copyright (C) 2011-2020 Hakim [El Hattab](https://hakim.se)
 
 
 
