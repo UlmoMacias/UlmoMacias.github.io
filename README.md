@@ -17,8 +17,7 @@ MIT licensed
 
 Copyright (C) 2011-2020 Hakim [El Hattab](https://hakim.se)
 
-
-##CV Template
+## CV Template
 
 
 Free Bootstrap 4 Resume/CV Template for developers
@@ -30,12 +29,12 @@ Release Date: 23 July 2018
 
 Author: Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/)
 
-###Contact
+### Contact
 Web: http://themes.3rdwavemedia.com/
 Email: themes@3rdwavemedia.com
 Twitter: @3rdwave_themes
 
-###License: 
+### License: 
 This template is free under the Creative Commons Attribution 3.0 License.
 https://creativecommons.org/licenses/by/3.0/
 
