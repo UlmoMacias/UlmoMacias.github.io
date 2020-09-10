@@ -1,6 +1,6 @@
 # Jorge Macias personal web pages
-=======
 You can visit my interactive bio [here](https://ulmomacias.github.io)
+You can visit my online CV [here](https://ulmomacias.github.io/CV/myCV.html)
 
 
 ## Interactive Bio
@@ -16,6 +16,8 @@ The full reveal.js documentation is available at [revealjs.com](https://revealjs
 MIT licensed
 
 Copyright (C) 2011-2020 Hakim El Hattab, https://hakim.se
+
+
 
 ##CV Template
 
