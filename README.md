@@ -1,7 +1,7 @@
 # Jorge Macias personal web pages
-You can visit my interactive bio [here](https://ulmomacias.github.io) 
+You can visit my online CV [here](https://ulmomacias.github.io)
 
-You can visit my online CV [here](https://ulmomacias.github.io/CV/myCV.html)
+You can visit my interactive bio [here](https://ulmomacias.github.io/Bio.html)
 
 
 ## Interactive Bio
